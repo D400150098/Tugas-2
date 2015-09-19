@@ -1,0 +1,33 @@
+
+# Tugas-2
+
+Diagram alir dan Pseudocode
+
++Perumusan nilai akar akar persamaan kuadrat tersebut
+
++misalnya D=b^2-4ac , selanjutnya jika untuk nilai D>=0 , solusinya adalah
+
++x1=(-b+v(b^2-4ac))/2a dan x2=(-b-v(b^2-4ac))/2a ,untuk nilai a>0 selain nilai D>=0 adalah D<0 . 
+karena hasil akar dari D<0 bernilai imaginer,maka solusi akar tersebut tidak ada
+
++KETERANGAN GAMBAR FLOWCHART
+
+1. Simbol 1 menujukkan dimulainya sebuah program.
+
+2. Simbol 2 menujukkan input data dari a,b,dan c
+
+3. Simbol 3 menujukkan suatu keputusan yang akan dipilih,yaitu jika nilai a memenuhi kriteria a>o,maka akan 
+    melanjutkan ke proses selanjutnya .jika tidak,maka akan kembali ke simbol 2
+
+4. Data dari a,b,dan c akan di proses pada simbol ke 4 dengan menggunakan perumusan D=b^2-4ac
+
+5. Simbol 5 menunjukkan suatu keputusan yang akan dipilih,jika hasil output dari proses simbol 4,yaitu D>=0 
+    maka akan melanjutkan ke proses di simbol 6y dan 7, jika tidak memenuhi, maka akan melanjutkan ke simbol 6t
+
+6. Simbol 6y dan 7 adalah proses perhitungan x1 dan x2
+
+7. Simbol 8 adalah nilai output dari proses 6y dan 7
+
+8. Simbol 6t menunjukkan output yang berupa teks "Akar Imaginer"
+
+9. Simbol 9 atau terakhir menunjukkan berakhirnya program dengan tanda End.
